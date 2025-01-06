@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Portal</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px 0;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f2fe;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .card img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        .card p {
+            margin: 10px 0 0;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Examination Portal</h1>
+    </header>
+    <nav>
+        <a href="#upcoming">Upcoming Exams</a>
+        <a href="#guidelines">Guidelines</a>
+        <a href="#results">Results</a>
+    </nav>
+    <main>
+        <div class="card" id="upcoming">
+            <img src="https://via.placeholder.com/150" alt="Upcoming Exams">
+            <div>
+                <h2>Upcoming Exams</h2>
+                <p>Stay updated with the schedule of your upcoming exams and prepare in advance.</p>
+            </div>
+        </div>
+
+        <div class="card" id="guidelines">
+            <img src="https://via.placeholder.com/150" alt="Guidelines">
+            <div>
+                <h2>Exam Guidelines</h2>
+                <p>Ensure you adhere to all examination guidelines to avoid any issues on the exam day.</p>
+            </div>
+        </div>
+
+        <div class="card" id="results">
+            <img src="https://via.placeholder.com/150" alt="Results">
+            <div>
+                <h2>Results</h2>
+                <p>Access your examination results as soon as they are published.</p>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Examination Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', () => {
+                alert(`You clicked on the card: ${card.querySelector('h2').textContent}`);
+            });
+        });
+    </script>
+</body>
+</html>

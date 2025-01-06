@@ -1,0 +1,10 @@
+1.  How to remove borders applied in Cells,(A) Select None on Border tab of Format cells,(B) Open the list on Border tool in Format Cell toolbar then choose first tool (none),(C) Both of above,(D) None of above,(D) None of above
+2. _____ is not a valid data type in MS-Excel. ,(A) Number,(B) Character,(C) Label,(D) Date/ Time,(B) Character
+3. What is MS Excel,(A) Spreadsheet,(B) Database Management,(C) Presentation,(D) Workbook,(A) Spreadsheet
+4. What is the row limit of MS Excel 2019,"(A) 4,81,0576","(B) 1,048,576","(C) 1,57,648","(D) 1,63, 84","(B) 1,048,576"
+"5. In Microsoft Excel spreadsheets, rows are designated as _______.","(A) 1, 2, 3, ....","(B) A, B, C, ....","(C) A1, B1, C1, ....","(D) I, II, III, ....","(A) 1, 2, 3, ...."
+"6._____ logical function indicates TRUE only if all arguments are assessed as TRUE, and FALSE otherwise.  ",(A) OR,(B) AND,(C) IF,(D) ANDIF,(B) AND
+7. The intersection of a column and a row in a worksheet is called____  ,(A) Column,(B) Address,(C) Value,(D) Cell,(D) Cell
+8. The Greater Than sign (>) exemplifies a/an _____ operator.,(A) Arithmetic,(B) Conditional,(C) Logical,(D) Greater,(C) Logical
+9. ____ is the correct syntax of IF() Function.  ,"(A) =IF (logical_test, TRUE([value_if_true]), FALSE([value_if_false]))","(B) =IF (logical_test, [value_if_true], [value_if_false])","(C) =IF (logical_test, {[value_if_true]}, {[value_if_false]})","(D) =IF (logical_test: [value_if_true], [value_if_false])","(B) =IF (logical_test, [value_if_true], [value_if_false])"
+10. ___is the function used to match multiple values and returns the first match in Windows/Mac (Applies only if you have a valid Microsoft 365 Subscription).,(A) IF(),(B) IFS(),(C) IIF(),(D) SWITCH(),(D) SWITCH()
